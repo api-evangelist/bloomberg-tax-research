@@ -1,4 +1,4 @@
-name: Bloomberg Tax Research API
+name: Bloomberg Tax Research
 description: API for accessing Bloomberg Tax Research data, including tax codes, regulations, rulings, and tax research content
 image: https://www.bloombergtax.com/images/logo.png
 url: https://www.bloombergtax.com
