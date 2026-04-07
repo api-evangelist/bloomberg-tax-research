@@ -1,55 +1,59 @@
 name: Bloomberg Tax Research
-description: API for accessing Bloomberg Tax Research data, including tax codes, regulations, rulings, and tax research content
+description: >-
+  API for accessing Bloomberg Tax Research data, including tax codes, regulations,
+  rulings, and tax research content.
 image: https://www.bloombergtax.com/images/logo.png
 url: https://www.bloombergtax.com
 created: '2024'
 modified: '2024'
 specificationVersion: '0.16'
 apis:
-- name: Bloomberg Tax Research API
-  description: Provides programmatic access to Bloomberg Tax research materials, tax codes, regulations, court cases, and analytics
-  image: https://www.bloombergtax.com/images/api-logo.png
-  humanURL: https://www.bloombergtax.com/api
-  baseURL: https://api.bloombergtax.com/v1
-  tags:
+  - name: Bloomberg Tax Research API
+    description: >-
+      Provides programmatic access to Bloomberg Tax research materials, tax codes,
+      regulations, court cases, and analytics.
+    image: https://www.bloombergtax.com/images/api-logo.png
+    humanURL: https://www.bloombergtax.com/api
+    baseURL: https://api.bloombergtax.com/v1
+    tags:
+      - tax
+      - research
+      - legal
+      - compliance
+      - regulations
+      - financial
+    properties:
+      - type: Documentation
+        url: https://developer.bloombergtax.com/docs
+      - type: OpenAPI
+        url: https://api.bloombergtax.com/v1/openapi.json
+      - type: Authentication
+        url: https://developer.bloombergtax.com/docs/authentication
+      - type: Pricing
+        url: https://www.bloombergtax.com/pricing
+      - type: Terms of Service
+        url: https://www.bloombergtax.com/terms
+      - type: Privacy Policy
+        url: https://www.bloombergtax.com/privacy
+      - type: Support
+        url: https://support.bloombergtax.com
+      - type: Status
+        url: https://status.bloombergtax.com
+      - type: Sign Up
+        url: https://www.bloombergtax.com/signup
+    contact:
+      - type: Email
+        url: mailto:api-support@bloombergtax.com
+      - type: Support Portal
+        url: https://support.bloombergtax.com
+maintainers:
+  - name: Bloomberg Tax
+    email: api-support@bloombergtax.com
+    url: https://www.bloombergtax.com
+tags:
   - tax
   - research
   - legal
   - compliance
   - regulations
-  - financial
-  properties:
-  - type: Documentation
-    url: https://developer.bloombergtax.com/docs
-  - type: OpenAPI
-    url: https://api.bloombergtax.com/v1/openapi.json
-  - type: Authentication
-    url: https://developer.bloombergtax.com/docs/authentication
-  - type: Pricing
-    url: https://www.bloombergtax.com/pricing
-  - type: Terms of Service
-    url: https://www.bloombergtax.com/terms
-  - type: Privacy Policy
-    url: https://www.bloombergtax.com/privacy
-  - type: Support
-    url: https://support.bloombergtax.com
-  - type: Status
-    url: https://status.bloombergtax.com
-  - type: Sign Up
-    url: https://www.bloombergtax.com/signup
-  contact:
-  - type: Email
-    url: mailto:api-support@bloombergtax.com
-  - type: Support Portal
-    url: https://support.bloombergtax.com
-maintainers:
-- name: Bloomberg Tax
-  email: api-support@bloombergtax.com
-  url: https://www.bloombergtax.com
-tags:
-- tax
-- research
-- legal
-- compliance
-- regulations
-- financial services
+  - financial services
