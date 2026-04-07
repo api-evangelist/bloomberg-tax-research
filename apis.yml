@@ -16,12 +16,12 @@ apis:
     humanURL: https://www.bloombergtax.com/api
     baseURL: https://api.bloombergtax.com/v1
     tags:
-      - tax
-      - research
-      - legal
-      - compliance
-      - regulations
-      - financial
+      - Compliance
+      - Financial
+      - Legal
+      - Regulations
+      - Research
+      - Tax
     properties:
       - type: Documentation
         url: https://developer.bloombergtax.com/docs
@@ -51,9 +51,9 @@ maintainers:
     email: api-support@bloombergtax.com
     url: https://www.bloombergtax.com
 tags:
-  - tax
-  - research
-  - legal
-  - compliance
-  - regulations
-  - financial services
+  - Compliance
+  - Financial Services
+  - Legal
+  - Regulations
+  - Research
+  - Tax
