@@ -40,6 +40,11 @@ apis:
   baseURL: https://api.bloombergtax.com/research
   tags:
   - Tax Research
+  - Portfolio
+  - Analysis
+  - Primary Sources
+  tags_raw:
+  - Tax Research
   - Portfolios
   - Analysis
   - Primary Sources
