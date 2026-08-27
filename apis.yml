@@ -1,10 +1,9 @@
 aid: bloomberg-tax-research
 name: Bloomberg Tax Research
-description: Bloomberg Tax Research provides tax professionals with comprehensive
-  access to primary sources, expert practitioner analysis, portfolios, and tax news
-  for conducting in-depth tax research. The platform covers federal income tax, state
-  and local tax (SALT), international tax, estate planning, benefits, payroll, and
-  transfer pricing research.
+description: Bloomberg Tax Research provides tax professionals with comprehensive access to primary sources, expert
+  practitioner analysis, portfolios, and tax news for conducting in-depth tax research. The platform covers federal
+  income tax, state and local tax (SALT), international tax, estate planning, benefits, payroll, and transfer pricing
+  research.
 type: Index
 accessModel:
   pricing: freemium
@@ -21,7 +20,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tax-research.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-tax-research/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-21'
+modified: '2026-08-27'
 specificationVersion: '0.23'
 tags:
 - Tax Research
@@ -33,9 +32,8 @@ tags:
 apis:
 - aid: bloomberg-tax-research:btax-research-api
   name: Bloomberg Tax Research API
-  description: Programmatic access to Bloomberg Tax research content including tax
-    portfolios, practitioner analysis, primary sources, and tax news for integration
-    into legal research and tax technology platforms.
+  description: Programmatic access to Bloomberg Tax research content including tax portfolios, practitioner analysis,
+    primary sources, and tax news for integration into legal research and tax technology platforms.
   humanURL: https://pro.bloombergtax.com/tax-research/
   baseURL: https://api.bloombergtax.com/research
   tags:
@@ -53,9 +51,8 @@ apis:
     url: https://pro.bloombergtax.com/tax-research/
 - aid: bloomberg-tax-research:salt-research
   name: Bloomberg Tax SALT Research
-  description: State and local tax (SALT) research platform covering income, sales,
-    property, and other state and local tax types with state-by-state analysis and
-    guidance.
+  description: State and local tax (SALT) research platform covering income, sales, property, and other state and
+    local tax types with state-by-state analysis and guidance.
   humanURL: https://pro.bloombergtax.com/state-local-tax-research/
   baseURL: https://api.bloombergtax.com/salt
   tags:
@@ -67,6 +64,11 @@ apis:
   - type: Documentation
     url: https://pro.bloombergtax.com/state-local-tax-research/
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
+  name: Bloomberg
+  x-relationship: product
+  x-generated-by: bloomberg-family:2026-08-27
 - type: DomainSecurity
   url: security/bloomberg-tax-research-domain-security.yml
 - type: Portal
@@ -106,3 +108,5 @@ common:
 maintainers:
 - FN: Kin Lane
   email: kinlane@gmail.com
+x-parent: bloomberg
+x-relationship: product
