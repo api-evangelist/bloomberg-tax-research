@@ -75,6 +75,12 @@ apis:
   - type: Documentation
     url: https://pro.bloombergtax.com/state-local-tax-research/
 common:
+- type: Plans
+  url: plans/bloomberg-tax-research-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/bloomberg-tax-research-rate-limits.yml
+- type: FinOps
+  url: finops/bloomberg-tax-research-finops.yml
 - type: Website
   url: https://bloombergtax.com
 - type: ParentCompany
