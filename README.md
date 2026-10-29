@@ -64,19 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Bloomberg Tax Research provides tax professionals with comprehensive access to primary sources, expert practitioner analysis, portfolios, and tax news for conducting in-depth research across federal, state, international, estate, and benefits tax topics.
+Bloomberg Tax Research provides tax professionals with comprehensive access to primary sources, expert practitioner analysis, portfolios, and tax news for conducting in-depth tax research. The platform covers federal income tax, state and local tax (SALT), international tax, estate planning, benefits, payroll, and transfer pricing research.
 
-## APIs
+**Areas:** Tax Research · Federal Tax · State Tax · International Tax · Tax Analysis · Bloomberg Tax
 
-- **Bloomberg Tax Research API** - Tax portfolios, analysis, and primary sources
-- **Bloomberg Tax SALT Research** - State and local tax research platform
+## Bloomberg Tax Research on APIs.io
 
-## Resources
+Everything profiled for Bloomberg Tax Research is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bloomberg-tax-research/](https://apis.io/providers/bloomberg-tax-research/)** — or go straight to one of the APIs or properties below.
 
-- [Bloomberg Tax Research](https://pro.bloombergtax.com/tax-research/)
-- [Bloomberg Tax SALT](https://pro.bloombergtax.com/state-local-tax-research/)
-- [Bloomberg Tax Professional](https://pro.bloombergtax.com/)
+### APIs (2)
 
-## Profile
+- [Bloomberg Tax Research API](https://apis.io/apis/bloomberg-tax-research/btax-research-api/) — Programmatic access to Bloomberg Tax research content including tax portfolios, practitioner analysis, primary sources, and tax news for integration into…
+- [Bloomberg Tax SALT Research](https://apis.io/apis/bloomberg-tax-research/salt-research/) — State and local tax (SALT) research platform covering income, sales, property, and other state and local tax types with state-by-state analysis and guidance.
 
-See [apis.yml](apis.yml) for the full API profile.
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bloomberg Tax Research Domain Security](https://apis.io/security/bloomberg-tax-research/bloomberg-tax-research-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Bloomberg Tax Research Plans Pricing](https://apis.io/plans/bloomberg-tax-research/bloomberg-tax-research-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Bloomberg Tax Research Rate Limits](https://apis.io/rate-limits/bloomberg-tax-research/bloomberg-tax-research-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Bloomberg Tax Research Finops](https://apis.io/finops/bloomberg-tax-research/bloomberg-tax-research-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://bloombergtax.com)
+- [Documentation](https://pro.bloombergtax.com/tax-research/)
+- [Support](https://pro.bloombergtax.com/contact/)
+- [Terms of service](https://www.bloomberg.com/notices/tos/)
+- [Privacy policy](https://www.bloomberg.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 15.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bloomberg-tax-research/](https://apis.io/providers/bloomberg-tax-research/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bloomberg Tax Research: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bloomberg-tax-research/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
